@@ -1,26 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-<div class="container mt-5">
-    <div class="alert alert-info" role="alert">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
-    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
-</svg> <strong>Tip!</strong>
-    </div>
-</div>
-
-<!-- Bootstrap JS and dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-
 # Creating Virtual Networks in Azure 
 In the following lab you will expand on what you did in lab one by creating multiple Virtual Machines and making them part of a Virtual Network.  
 
@@ -94,9 +71,29 @@ From the menu at the top select “Delete Resource Group”
 
 This will open a window that allows you to delete the resource group. 
 
-NOTE: Before deleting your resource group, you should screenshot this window and add it to your portfolio with a brief explanation of what you are doing. 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="alert alert-info" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg> <strong>Tip!</strong>
+NOTE: Before deleting your resource group, you should screenshot this window and add it to your portfolio with a brief explanation of what you are doing.
+    </div>
+</div>
 
-![Image](Pictures/018.png) 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 Tick “Apply force delete for selected Virtual Machines and Virtual Machines Scale Sets” 
 
@@ -150,7 +147,7 @@ Take a screenshot showing your created network and add it to your portfolio, wit
 </body>
 </html>
 
-Create Virtual Machines 
+## Create Virtual Machines 
 
 Return to the Azure home screen and navigate to the Virtual Machine section as you did last week.  
 
@@ -178,8 +175,7 @@ Press create, then enter the following details for your VM:
     <div class="alert alert-danger" role="alert">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
-</svg> <strong>>
-**Do not create the VM yet!**</strong>
+</svg> <strong>**Do not create the VM yet!**</strong>
     </div>
 </div>
 
@@ -258,7 +254,7 @@ You should go to navigate back to your Virtual Machine page, and ensure that you
 
 Once you have done this, screenshot that page, and write an explanation of what you have done so far.  
 
-Communicating Over the Virtual Network.  
+## Communicating Over the Virtual Network.  
 
 Log into your “vm1” using the login process you used last week (locate the VM -> get the IP address from the online menu -> log into the VM using RDP and the username and password you set up. If you need further information, please check last week's lab.) 
 
@@ -342,7 +338,24 @@ This is not recommended behaviour for your own private machines, we are doing th
 </body>
 </html>
 
-Log out of vm1 and repeat this process on vm2, take a screenshot of the vm2 firewall after you have disabled it, and write an explanation of what you did. 
+Log out of vm1 and repeat this process on vm2
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="alert alert-info" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg> <strong>Tip!</strong>
+Add a screenshot to your portfolio explaining what you just did.
+    </div>
+</div>
 
 Return to VM1 by logging into it using RDP. And open the PowerShell window. 
 
@@ -470,7 +483,7 @@ RDP into VM3 as you have done with one and two previously.
 
 Open the network and firewall settings of VM3 and disable public and private connections 
 
-Open PowerShell as an administrator and try and ping “VM1 and VM2” 
+Open PowerShell as an administrator and try and ping “vm1 and vm2” (seperately.) 
 
 <html lang="en">
 <head>
@@ -557,7 +570,7 @@ Then
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task!</strong>
-TASK: The plus signs you see here will show you different aspects of your network, you should explore each of them, screenshot them and add them to your portfolio, with an explanation of what they are showing.  
+The plus signs you see here will show you different aspects of your network, you should explore each of them, screenshot them and add them to your portfolio, with an explanation of what they are showing.  
     </div>
 </div>
 
@@ -585,8 +598,7 @@ Your vnet1 should show both of your machines (vm1 and vm2) interconnected, where
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task</strong>
-You now need to get your Azure services ready for the lab next week.  
-<li>Delete the resource group you used for this session using the steps at the start of this lab</li>
+You now need to get your Azure services ready for the lab next week: Delete the resource group you used for this session using the steps at the start of this lab
     </div>
 </div>
 
@@ -669,7 +681,6 @@ Include a screenshot of your updated budget with a brief description here.
 </body>
 </html>
 
-Then
 <html lang="en">
 <head>
     <meta charset="UTF-8">
