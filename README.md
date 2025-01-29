@@ -509,6 +509,8 @@ You should add a screenshot to your portfolio of the process of pinging VM1 and 
 </body>
 </html>
 
+You can now close your RDP connection and return to Azure.
+
 ## Visualising Your Network Topology 
 Go back to the Azure homepage and search for “Network Watcher” it should show up as the image below: 
 
