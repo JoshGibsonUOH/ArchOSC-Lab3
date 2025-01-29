@@ -386,6 +386,7 @@ Add a screenshot to your portfolio explaining what you did, and how the behaviou
 </html>
 
 ## Connecting Between Virtual Networks 
+## Create Virtual Machines 
 
 Repeat the steps from the previous sections to do the following: 
 
@@ -512,6 +513,7 @@ You should add a screenshot to your portfolio of the process of pinging VM1 and 
 You can now close your RDP connection and return to Azure.
 
 ## Visualising Your Network Topology 
+## Create Virtual Machines 
 Go back to the Azure homepage and search for “Network Watcher” it should show up as the image below: 
 
 ![Image](Pictures/010.png) 
@@ -585,6 +587,7 @@ The plus signs you see here will show you different aspects of your network, you
 Your vnet1 should show both of your machines (vm1 and vm2) interconnected, whereas vm3 should be a lone device with its own components, if you aren’t sure if what you are seeing is correct – ask! 
 
 ## End of Lab Clean-Up 
+## Create Virtual Machines 
 
 <html lang="en">
 <head>
