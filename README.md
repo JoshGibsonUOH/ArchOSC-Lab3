@@ -46,6 +46,13 @@ Ensure your resource groups are deleted before you start this Lab, if you’re u
     </div>
 </div>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 ## Create an IoT Hub 
 
 As you have done previously: log into the Azure portal by visiting https://portal.azure.com 
@@ -92,6 +99,13 @@ Add a screenshot of your IoT hub wizard to with the fields to your portfolio, ex
     </div>
 </div>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 Select “Review and Create” and then “Create” to deploy your IoT Hub to Azure, this may take a couple of minutes. 
  
 ## Add an IoT device 
@@ -136,6 +150,13 @@ Press save, and your IoT Device will be created and added to your IoT Hub. (it m
 Add a screenshot of your created IOT device and add it to your portfolio, explaining what you have done.  
     </div>
 </div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 Click on your IoT device and you will be redirected to its overview, which will likely give you four obscured strings, and some other data. 
 
@@ -184,6 +205,13 @@ Add a screenshot to your portfolio of the IoT hub sending data, with an explanat
     </div>
 </div>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 ![Image](Pictures/012.png)
 
 Press “stop” (the run button turns to stop when the program is running) and relocate back to Azure and return to the main screen. 
@@ -214,6 +242,13 @@ If you want to see them in more detail you can change the filter to the last hou
 Add a screenshot of the main page of your Hub showing your emulator usage and explaining what this means. 
     </div>
 </div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 You can now collect data from an IoT device! 
 
@@ -253,6 +288,13 @@ Add an image of your filled in form to your portfolio explaining what you are cr
     </div>
 </div>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 Click review and create and create your IOT Central application (this may take a few minutes, in a similar way to your Iot Hub) 
 
 Once your application has been deployed, go back to your resource group (using the same steps you did previously, homepage -> resource groups) and you should now see your IoT central application has joined your hub. 
@@ -273,6 +315,13 @@ Once your application has been deployed, go back to your resource group (using t
 Add an image of your created resource group here, explaining what it shows. 
     </div>
 </div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
 ![Image](Pictures/015.png) 
 
@@ -301,6 +350,13 @@ Add an image of your open IOT central application here
     </div>
 </div>
 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 From the main portal screen press the blue “new” button to add a new device.
 
 ![Image](Pictures/018.png) 
@@ -328,7 +384,13 @@ Add a screenshot of your opened attatched device here.
     </div>
 </div>
 
-If your phone supports it (Microsoft have stopped supporting the software on Android), you could then turn your phone into an IOT device using the following link: https://learn.microsoft.com/en-gb/azure/iot/iot-phone-app-how-to#azure-iot-plug-and-play-app 
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
 
 <html lang="en">
 <head>
